@@ -33,7 +33,7 @@ if (!isset($_POST['kullaniciadi']) || !isset($_POST['parola']))
 
 $_SESSION['username'] = $_POST['kullaniciadi'];
 
-if ($_POST['kullaniciadi'] == "vedat" && $_POST['parola'] == "kurtay") {
+if ($_POST['kullaniciadi'] == "heroku" && $_POST['parola'] == "master") {
     $_SESSION['login'] = true;
     $_SESSION['user'] = "bootcamp";
     yonlendir('posts.php');
